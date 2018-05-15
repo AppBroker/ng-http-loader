@@ -15,6 +15,7 @@ import { SkSpinnerPulseComponent } from './components/sk-spinner-pulse/sk-spinne
 import { SkThreeBounceComponent } from './components/sk-three-bounce/sk-three-bounce.component';
 import { SkWanderingCubesComponent } from './components/sk-wandering-cubes/sk-wandering-cubes.component';
 import { SkWaveComponent } from './components/sk-wave/sk-wave.component';
+import { SkModulrSpin } from './components/sk-modulr-spin/sk-modulr-spin.component';
 
 export const Spinkit = {
     skChasingDots: 'sk-chasing-dots',
@@ -25,6 +26,7 @@ export const Spinkit = {
     skThreeBounce: 'sk-three-bounce',
     skWanderingCubes: 'sk-wandering-cubes',
     skWave: 'sk-wave',
+    skModulrSpin: 'sk-modulr-spin',
 };
 
 export const SPINKIT_COMPONENTS = [
@@ -36,4 +38,5 @@ export const SPINKIT_COMPONENTS = [
     SkThreeBounceComponent,
     SkWanderingCubesComponent,
     SkWaveComponent,
+    SkModulrSpin,
 ];
